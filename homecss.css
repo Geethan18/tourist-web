@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  body {
+    font-family: Montserrat, "Times New Roman", san-serif;
+  }
+  
+  /* Footer Stylings */
+  
+  footer {
+    background-color: rgb(121, 62, 62);
+    bottom: 0;
+    color: white;
+    font-size: 12px;
+    height: 30px;
+    padding-left: 20px;
+    padding-top: 10px;
+    position: fixed;
+    width: 100%;
+  }
+  
+  footer a {
+    color: white;
+    font-size: 12px;
+  }
+  
+  .footer-links {
+    float: right;
+    padding-right: 20px;
+  }
+  
+  /* Navbar Stylings */
+  
+  @font-face {
+    font-family: navBrandFont;
+    src: url(../Fonts/blackjack.otf);
+  }
+  
+  .nav-header {
+    background-color: rgb(121,62,62);
+    display: flex;
+    height: 50px;
+    padding-left: 50px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .nav-header > .nav-title {
+    font-family: navBrandFont;
+    font-size: 25px;
+    padding-top: 5px;
+  }
+  
+  .nav-header > .nav-title > a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .nav-btn {
+    display: none;
+  }
+  
+  #nav-check {
+    display: none;
+  }
+  
+  .nav-links > ul > li {
+    display: inline-block;
+    font-size: 14px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-top: 15px;
+  }
+  
+  .nav-links > ul > li > a {
+    color: #efefef;
+    text-decoration: none;
+  }
+  
+  .navItems::after {
+    border-bottom: solid 1px white;
+    content: "";
+    display: block;
+    transform: scaleX(0);
+    transition: transform 250ms ease-in-out;
+  }
+  
+  .navItems:hover::after {
+    transform: scaleX(1);
+  }
+  
+  /* Stylings for home page */
+  .trav{
+    padding-top: 50px;
+    height:600px ;
+    width: 1500px;
+  }
+  
+  .cardHolder {
+    background-color: rgb(240, 235, 235);
+    border-radius: 15px;
+    bottom: 100px;
+    height: 500px;
+    margin-left: 100px;
+    margin-top: 200px;
+    overflow: hidden;
+    position: relative;
+    right: 20px;
+    width: 1200px;
+  }
+  
+  .column {
+    box-sizing: border-box;
+    float: left;
+    height: 250px;
+    margin: 15px;
+    padding: 10px;
+    width: 270px; 
+  }
+  
+  .description {
+    color: rgb(0, 0, 0);
+    font-family: "Abel", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    text-align: center;
+    top: -180px;
+  }
+  
+  .column:hover img {
+    backface-visibility: hidden;
+    opacity: 0.2;
+  }
+  
+  .column:hover .text {
+    opacity: 1;
+  }
+  
+  .column img {
+    border-radius: 10px;
+  }
+  
+  .column .text {
+    opacity: 0;
+  }
+  
+  .column h2 {
+    bottom: 200px;
+    color: rgb(0, 0, 0);
+    font-family: "Abel";
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+  }
+  
+  .header {
+    color: rgb(68, 32, 32);
+    font-family: Lato, sans-serif;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .text a {
+    text-decoration: none;
+  }
+  
+  .column-heading {
+    bottom: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    left: 30px;
+    position: relative;
+    width: 78%;
+  }
+
+
+  
